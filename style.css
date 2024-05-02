@@ -53,8 +53,7 @@ h1 {
 }
 
 #recipes {
-    color: rgb(47, 69, 125);
-    text-decoration: underline;
+    cursor: pointer;
     margin-left: 1.5em;
 }
 
@@ -76,4 +75,18 @@ h1 {
 
 .li {
     margin-top: 1.3em;
+}
+
+#method {
+    margin-bottom: 1.3em;
+    border-bottom: 1px solid lightskyblue;
+}
+
+#dough {
+    border-top: 1px solid lightskyblue;
+    font-weight: bold;
+}
+
+#simplyrecipes {
+    cursor: pointer;
 }
