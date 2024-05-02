@@ -1,0 +1,79 @@
+#logo {
+    background-image: url(logo.png);
+    background-size: cover;
+    width: 15%;
+    height: 15%;
+    margin-left: 50%;
+    margin-top: 2rem;
+    transform: translate(-50%, -50%);
+}
+
+#testo {
+    font-size: 0.8em;
+    color: rgb(45, 114, 114);
+    text-align: center;
+    border-top: 1.5px solid rgb(250, 195, 91);
+    margin-top: 0.2em;
+    background-color: rgba(250, 195, 91, 0.13);
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.container {
+    margin: 40px 400px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#focaccia {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #00000024;
+    cursor: pointer;
+}
+
+#image {
+    color: grey;
+    text-align: center;
+    margin-top: 1.3em;
+}
+
+#featured {
+    color: brown;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+}
+
+#recipes {
+    color: rgb(47, 69, 125);
+    text-decoration: underline;
+    margin-left: 1.5em;
+}
+
+#margin {
+    border-left: 1.5px solid rgb(250, 195, 91);
+}
+
+#ingredients {
+    margin-top: 1.5em;
+    margin-bottom: 1.2em;
+
+}
+
+#ingredients~hr {
+    background-color: lightskyblue;
+    margin-bottom: 1.5em;
+    height: 1px;
+}
+
+.li {
+    margin-top: 1.3em;
+}
